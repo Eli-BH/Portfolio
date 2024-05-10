@@ -41,7 +41,7 @@ export const experienceIcons: ExperienceIconObjectI[] = [
   },
   {
     title: "CSS 3",
-    icon: "/images/css-3.png",
+    icon: "/images/css.png",
   },
   {
     title: "React",

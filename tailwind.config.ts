@@ -12,9 +12,16 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "confetti-doodles": "url('/images/confetti-doodles.svg')",
+      },
+
+      fontFamily: {
+        latoLight: "LatoLight",
+        latoBold: "LatoBold",
+        latoReg: "LatoReg",
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar")],
 };
 export default config;

@@ -17,12 +17,12 @@ const Contact = () => {
           animate={{ y: 0 }}
           initial={{ y: 120 }}
           transition={{ delay: 0.5, duration: 0.5 }}
-          className="text-6xl text-orange-400 text-center lg:text-right lg:text-9xl"
+          className="text-6xl text-orange-400 text-center lg:text-right lg:text-9xl "
         >
           Let&apos;s Talk
         </m.h1>
       </div>
-      <div className="flex flex-col mt-[50%] px-10 lg:px-0 lg:mt-0 lg:flex-row gap-40">
+      <div className="flex flex-col mt-[50%] px-10 lg:px-0 lg:mt-0 lg:flex-row lg:gap-40 gap-16">
         <div className="lg:text-2xl text-5xl   text-orange-400">
           <h4>Find me here</h4>
         </div>
@@ -31,7 +31,7 @@ const Contact = () => {
             variants={container}
             initial="hidden"
             animate="show"
-            className="text-orange-400"
+            className="text-orange-400 font-latoLight"
           >
             <a
               target="_blank"

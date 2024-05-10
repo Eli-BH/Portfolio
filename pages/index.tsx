@@ -28,7 +28,7 @@ export default function Home() {
       </Head>
       <main className="flex flex-col  md:flex-row w-full lg:h-full items-center ">
         <HeroTextContainer align={"start"}>
-          <div className="overflow-hidden">
+          <div className="xl:overflow-hidden">
             <m.h1
               animate={{ y: 0, opacity: 1 }}
               initial={{ y: 250, opacity: 0 }}
@@ -80,7 +80,7 @@ export default function Home() {
           <Image
             src={avatar}
             alt={"Avatar image of eli"}
-            className="rounded-full xl:h-[28rem] xl:w-[28rem] lg:h-[24rem] lg:w-[24rem] h-64 w-64 aspect-auto absolute top-0 bottom-16 left-0 right-0 m-auto"
+            className="rounded-full xl:h-[28rem] xl:w-[28rem] lg:h-[24rem] lg:w-[24rem] h-48 w-48 aspect-auto absolute top-0 bottom-16 left-0 right-0 m-auto"
           />
         </HeroTextContainer>
       </main>

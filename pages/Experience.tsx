@@ -46,7 +46,7 @@ const Experience = () => {
             <m.div
               variants={item}
               key={index}
-              className="lg:w-3/4  w-full gap-4 h-80  bg-green-700/25 lg:h-72 flex items-center justify-center rounded-md border-2  border-green-800/65 shadow-lg shadow-green-800/80 "
+              className="lg:w-3/4  w-full gap-4  h-40  bg-green-700/25 lg:h-72 flex items-center justify-center rounded-md border-2  border-green-800/65 shadow-lg shadow-green-800/80 "
             >
               <div className="hidden lg:flex justify-center items-center  xl:w-64 w-40 h-full">
                 <img
@@ -58,18 +58,18 @@ const Experience = () => {
 
               <div className=" w-11/12 py-3  overflow-hidden">
                 <div>
-                  <h1 className="md:text-3xl  text-lg font-latoBold text-orange-600 tracking-wide ">
+                  <h1 className="md:text-3xl  text-md lg:text-lg font-latoBold text-orange-600 tracking-wide ">
                     {card.title}
                   </h1>
-                  <h2 className="lg:text-xl text-sm tracking-wide font-latoLite text-orange-900">
+                  <h2 className="lg:text-xl text-xs  tracking-wide font-latoLite text-orange-900">
                     {card.subtitle}
                   </h2>
                 </div>
 
-                <ul className="lg:px-10 pl-5 lg:mt-4 mt-2 list-disc ">
+                <ul className="lg:px-10 pl-5  lg:mt-4  list-disc ">
                   {card.list.map((item, index) => (
                     <li key={index} className="my-0 lg:my-2">
-                      <p className="text-sm lg:text-lg ">{item}</p>
+                      <p className="text-xs lg:text-lg ">{item}</p>
                     </li>
                   ))}
                 </ul>

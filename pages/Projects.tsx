@@ -17,7 +17,7 @@ const Projects = () => {
             animate={{ y: 0 }}
             initial={{ y: 120 }}
             transition={{ delay: 0.5, duration: 0.5 }}
-            className="xl:text-9xl text-6xl text-orange-500 mb-4"
+            className="xl:text-9xl lg:text-6xl text-4xl text-orange-500 mb-4"
           >
             My Projects
           </m.h1>
@@ -29,7 +29,7 @@ const Projects = () => {
               initial={{ opacity: 0, x: -100 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.5, duration: 0.5 }}
-              className="w-full lg:w-1/2 h-full bg-purple-800 rounded-lg shadow-lg flex flex-col justify-between p-4"
+              className="w-full lg:w-1/2 h-full bg-purple-800 rounded-lg shadow-lg flex flex-col justify-between md:p-4 p-2"
             >
               <img
                 src={"https://via.placeholder.com/150"}
@@ -37,10 +37,10 @@ const Projects = () => {
                 className="xl:h-40 h-20 w-full object-cover rounded-lg"
               />
 
-              <h1 className="text-white text-lg xl:text-3xl font-bold text-LatoBold tracking-wide color-white ">
+              <h1 className="text-white  text-lg xl:text-3xl font-bold text-LatoBold tracking-wide color-white ">
                 Card Title
               </h1>
-              <div className="overflow-x-scroll flex flex-row space-x-2 p-2   scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-orange-500 scrollbar-track-orange-200">
+              <div className="overflow-x-scroll hidden lg:flex flex-row space-x-2 p-2   scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-orange-500 scrollbar-track-orange-200">
                 <p className="xl:min-w-32 min-w-24 bg-orange-500 rounded-full flex justify-center items-center p-1 text-white">
                   React
                 </p>
@@ -57,12 +57,12 @@ const Projects = () => {
                   Three.js
                 </p>
               </div>
-              <p className="text-slate-200">
+              <p className="text-slate-200 lg:text-lg text-xs">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
                 ac.
               </p>
 
-              <div className="min-w-32 flex  h-12 justify-evenly items-center xl:gap-0 gap-3 ">
+              <div className="min-w-32 flex  h-12 justify-evenly items-center xl:gap-0 gap-3  ">
                 <button className="xl:h-10 h-6 bg-rose-700 text-white tracking-wide rounded-full px-3 xl:px-10">
                   Demo
                 </button>

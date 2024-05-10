@@ -40,7 +40,7 @@ const Gallery = () => {
                   initial={{ opacity: 0, scale: 0.9 }}
                   transition={{ duration: 0.5 }}
                 >
-                  <p className="text-orange-500 text-9xl font-latoBold stroke-black strock">
+                  <p className="text-orange-500 lg:text-9xl text-3xl font-latoBold stroke-black strock">
                     {photo.label}
                   </p>
                 </m.div>

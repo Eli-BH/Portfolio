@@ -54,13 +54,19 @@ const About = () => {
               <m.div
                 variants={item}
                 key={index}
-                className={`flex px-3 w-full lg:w-3/4 h-32 xl:h-80 overflow-hidden  items-center  ${
+                className={`flex px-3 w-full lg:w-3/4 lg:h-32 h-20 xl:h-80 overflow-hidden  items-center  ${
                   selected === about.section && "text-orange-800"
                 } hover:text-orange-600 cursor-pointer transistion duration-500 ease-in-out transform hover:-translate-y-1 xl:hover:scale-110`}
                 onClick={() => setSelected(about.section)}
               >
                 <div className=" justify-center  items-center flex  w-1/4">
-                  <Image height={150} width={150} src={about.icon} alt="icon" />
+                  <Image
+                    height={150}
+                    width={150}
+                    className="w-10 xl:w-40 xl:h-40 h-10"
+                    src={about.icon}
+                    alt="icon"
+                  />
                 </div>
 
                 <div className="gap-4  xl:gap-10 justify-center items-start flex flex-col pl-6 w-3/4">
@@ -68,7 +74,9 @@ const About = () => {
                     {about.title}
                   </h1>
 
-                  <p className="text-sm lg:text-xl">{about.description}</p>
+                  <p className="text-sm lg:text-xl hidden xl:block">
+                    {about.description}
+                  </p>
                 </div>
               </m.div>
             );

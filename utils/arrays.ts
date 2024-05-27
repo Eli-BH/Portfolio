@@ -1,6 +1,7 @@
 import { AboutSectionItemI } from "./types";
 import { AboutSectionEnum } from "./enums";
 import { ExperienceCardI, ExperienceIconObjectI } from "./interfaces";
+import css from "/images/888847.png"; //
 
 export const aboutArrs: AboutSectionItemI[] = [
   {
@@ -39,13 +40,14 @@ export const experienceIcons: ExperienceIconObjectI[] = [
     title: "HTML 5",
     icon: "/images/html.png",
   },
-  {
-    title: "CSS 3",
-    icon: "/images/888847.png",
-  },
+
   {
     title: "React",
     icon: "/images/structure.png",
+  },
+  {
+    title: "CSS 3",
+    icon: css,
   },
   {
     title: "Kotlin",

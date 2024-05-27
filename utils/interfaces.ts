@@ -1,6 +1,8 @@
+import { StaticImageData } from "next/image";
+
 export interface ExperienceIconObjectI {
   title: string;
-  icon: string;
+  icon: string | StaticImageData;
 }
 
 export interface ExperienceCardI {

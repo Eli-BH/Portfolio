@@ -66,10 +66,10 @@ const Experience = () => {
                   </h2>
                 </div>
 
-                <ul className="lg:px-10 pl-5  lg:mt-4  list-disc ">
+                <ul className="lg:px-10 pl-5  lg:mt-4  list-disc">
                   {card.list.map((item, index) => (
                     <li key={index} className="my-0 lg:my-2">
-                      <p className="text-xs lg:text-lg ">{item}</p>
+                      <p className="text-xs lg:text-lg">{item}</p>
                     </li>
                   ))}
                 </ul>

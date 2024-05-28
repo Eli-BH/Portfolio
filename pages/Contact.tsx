@@ -36,7 +36,7 @@ const Contact = () => {
             <a
               target="_blank"
               rel="noopener"
-              href="/Resume.pdf"
+              href="/resume1.pdf"
               download={"Eli Brown-Henderson Resume"}
               className="overflow-hidden"
             >
@@ -48,7 +48,7 @@ const Contact = () => {
               </m.li>
             </a>
             <a
-              href="https://dev.to/cosmiceli"
+              href="https://www.linkedin.com/in/elijah-brown-henderson-983768144"
               target="_blank"
               rel="noopener"
               className="overflow-hidden"

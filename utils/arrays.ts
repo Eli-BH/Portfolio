@@ -151,8 +151,10 @@ export const projects: ProjectCardPropsI[] = [
       "Pic Poet, an android app designed to add a touch of art to your day by transforming your pictures into classic American short poems.",
     techStack: ["GPT-4-Turbo", "React Native", "TypeScript"],
     image: picPoetImage,
-    demoLink: "https://www.picpoet.com",
-    sourceLink: "https://www.picpoet.com",
+    demoLink:
+      "https://play.google.com/store/apps/details?id=com.cosmicavian.picpoet&pcampaignid=web_share",
+    sourceLink:
+      "https://play.google.com/store/apps/details?id=com.cosmicavian.picpoet&pcampaignid=web_share",
   },
   {
     title: "Startup",
@@ -160,7 +162,7 @@ export const projects: ProjectCardPropsI[] = [
       "A platform to help you get started with your next big idea. We use AI to give you some great ideas for programming projects to get you started coding with confidence. All you have to do to get started is enter the technologies you want to use, and a couple of filters for personalization, and Startup will do the rest.",
     techStack: ["React", "Chat-GPT", "Framer Motion", "Tailwind CSS"],
     image: startupImage,
-    demoLink: "https://startup-q4kv.vercel.app/",
+    demoLink: "https://startup-b2b16225a684.herokuapp.com/",
     sourceLink: "https://github.com/Eli-BH/Startup/tree/main",
   },
 ];

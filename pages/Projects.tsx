@@ -26,7 +26,7 @@ const Projects = () => {
           </m.h1>
         </div>
 
-        <div className="grid grid-cols-2  xl:grid-cols-3 xl:grid-rows-2  w-full h-full bg-orange-200 bg-confetti-doodles">
+        <div className="flex justify-evenly gap-10 w-full overflow-auto h-full bg-orange-200 bg-confetti-doodles">
           {
             /* Project Cards go here */
 

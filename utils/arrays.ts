@@ -8,6 +8,8 @@ import {
 import css from "/images/888847.png"; //
 import startupImage from "/images/startup.png"; //
 import picPoetImage from "/images/picpoetcrop.jpg"; //
+import portfolioImage from "/images/elisite.png"; //
+import stackImage from "/images/stack.png";
 
 export const aboutArrs: AboutSectionItemI[] = [
   {
@@ -164,5 +166,24 @@ export const projects: ProjectCardPropsI[] = [
     image: startupImage,
     demoLink: "https://startup-b2b16225a684.herokuapp.com/",
     sourceLink: "https://github.com/Eli-BH/Startup/tree/main",
+  },
+
+  {
+    title: "Portfolio 1",
+    description:
+      "My first portfolio, built with React, Tailwind CSS, and Framer Motion.",
+    techStack: ["React", "Tailwind CSS", "Framer Motion"],
+    image: portfolioImage,
+    demoLink: "https://elijahbrown-henderson.netlify.app/",
+    sourceLink: "https://github.com/Eli-BH/Portfolio_2",
+  },
+  {
+    title: "Stack",
+    description:
+      "A platform to help devs get started with their next app by giving them a list of technologies to use.",
+    techStack: ["React", "TypeScript", "Tailwind CSS"],
+    image: stackImage,
+    demoLink: "https://eli-stack.netlify.app/",
+    sourceLink: "https://github.com/Eli-BH/Stack",
   },
 ];

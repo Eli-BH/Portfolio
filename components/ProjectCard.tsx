@@ -6,12 +6,12 @@ import { ProjectCardPropsI } from "@/utils/interfaces";
 
 const ProjectCard = ({ project }: { project: ProjectCardPropsI }) => {
   return (
-    <div className="w-11/12 h-80 xl:h-full  flex justify-center items-center">
+    <div className="w-80 h-80 xl:h-[40rem]  flex justify-center items-center">
       <m.div
         initial={{ opacity: 0, x: -100 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ delay: 0.5, duration: 0.5 }}
-        className="w-full lg:w-1/2 h-full bg-purple-800 rounded-lg shadow-lg flex flex-col justify-between md:p-4 p-2"
+        className="w-full  h-full bg-purple-800 rounded-lg shadow-lg flex flex-col justify-between md:p-4 p-2"
       >
         <Image
           src={project.image}
@@ -41,12 +41,12 @@ const ProjectCard = ({ project }: { project: ProjectCardPropsI }) => {
         </div>
 
         <div className="min-w-32 flex  h-12 justify-evenly items-center xl:gap-1 gap-3  ">
-          <a href={project.demoLink}>
+          <a href={project.demoLink} target="_blank" rel="noopener">
             <button className="xl:h-10 h-6 bg-rose-700 text-white tracking-wide rounded-full px-2 xl:px-7">
               Demo
             </button>
           </a>
-          <a href={project.sourceLink}>
+          <a href={project.sourceLink} target="_blank" rel="noopener">
             <button className="xl:h-10 h-6 bg-rose-700 text-white tracking-wide rounded-full px-2 xl:px-7">
               Source
             </button>

@@ -1,7 +1,6 @@
 import React from "react";
 import { motion as m } from "framer-motion";
 import Image from "next/image";
-import poet from "/images/picpoetcrop.jpg";
 import { ProjectCardPropsI } from "@/utils/interfaces";
 
 const ProjectCard = ({ project }: { project: ProjectCardPropsI }) => {

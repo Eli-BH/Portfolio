@@ -10,6 +10,7 @@ import startupImage from "/images/startup.png"; //
 import picPoetImage from "/images/picpoetcrop.jpg"; //
 import portfolioImage from "/images/elisite.png"; //
 import stackImage from "/images/stack.png";
+import samsungSite from "/images/samsungsite.png";
 
 export const aboutArrs: AboutSectionItemI[] = [
   {
@@ -185,5 +186,14 @@ export const projects: ProjectCardPropsI[] = [
     image: stackImage,
     demoLink: "https://eli-stack.netlify.app/",
     sourceLink: "https://github.com/Eli-BH/Stack",
+  },
+  {
+    title: "Apple style Samsung Site",
+    description:
+      "A recreation of the samsung galaxy s24 ultra site, in the style of apples iphone 15 release site.",
+    techStack: ["GSAP", "THREE.js", "Tailwind CSS", "React", "Vite"],
+    image: samsungSite,
+    demoLink: "https://samsung-website.vercel.app",
+    sourceLink: "https://github.com/Eli-BH/SamsungWebsite",
   },
 ];
